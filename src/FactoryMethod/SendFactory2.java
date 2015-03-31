@@ -6,7 +6,7 @@ package FactoryMethod;
  * @author haondroid
  * 
  */
-public class SenderFactory2
+public class SendFactory2
 {
 	public Sender pruduceMain()
 	{
@@ -22,7 +22,7 @@ public class SenderFactory2
 
 	public static void main(String args[])
 	{
-		SenderFactory2 senderFactory2 = new SenderFactory2();
+		SendFactory2 senderFactory2 = new SendFactory2();
 		Sender sender = senderFactory2.pruduceEms();
 		sender.sender();
 
